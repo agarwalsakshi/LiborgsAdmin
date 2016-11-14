@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Admin</string>
+    <string name="action_settings">Settings</string>
+    <string name="flash_on">Flash On</string>
+    <string name="flash_off">Flash Off</string>
+    <string name="auto_focus_on">Auto Focus On</string>
+    <string name="auto_focus_off">Auto Focus Off</string>
+    <string name="login">LOGIN</string>
+    <string name="admin">Admin</string>
+    <string name="loading">Loading...</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="could_not_connect_to_server">Could not connect to server. Please try again!</string>
+    <string name="come_soon_text">This feature will come soon!</string>
+    <string name="pending_text">Returned</string>
+    <string name="all_books_text">All Books</string>
+    <string name="token_expire_text">Your Tocken has expired. Please Login to continue!</string>
+    <string name="no_books_return_text">No allBooks to return right right now.</string>
+    <string name="something_went_wrong_text">Something went wrong. Try again.</string>
+    <string name="saving_text">Saving...</string>
+    <string name="camera_error_text">Whoops - your device does not support capturing images!</string>
+    <string name="fill_all_fields_text">Fill all the mandatory fields first</string>
+    <string name="no_such_results_text">No search results found!</string>
+    <string name="action_search">Search</string>
+    <string name="network_error_text">Could not connect to internet.</string>
+    <string name="requested_book">Requested Books</string>
+    <string name="no_book_request_text">No new book has been requested.</string>
+    <string name="clear_text">CLEAR</string>
+    <string name="request_toolbar">Request</string>
+    <string name="upload_toolbar">Book Upload</string>
+    <string name="description">Description</string>
+    <string name="book_cover">Book Cover</string>
+    <string name="book_name">Book Name</string>
+    <string name="author_name">Author Name</string>
+    <string name="isbn_number">ISBN Number</string>
+    <string name="upload_text">UPLOAD</string>
+    <string name="pagecount">Pagecount</string>
+    <string name="categories">Categories</string>
+    <string name="publication">Publication</string>
+    <string name="search_text">Search for Book</string>
+    <string name="accept_text">ACCEPT</string>
+    <string name="delete_text">DELETE</string>
+    <string name="all_users">All Users</string>
+    <string name="external_storage_permission"></string>
+    <string name="auth_token">auth_token</string>
+    <string name="notification">Liborgs Notification</string>
+
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/app_name"/>
+
+    <ImageView
+        android:layout_width="189dp"
+        android:layout_height="252dp"
+        android:background="@color/camera_background"
+        android:id="@+id/background"
+        android:layout_marginTop="65dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/textid"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/background"
+        android:textColor="#000000"
+        android:src="@mipmap/camera"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/book_name"
+        android:singleLine="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/background"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/authorName"
+        android:hint="@string/author_name"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/bookName"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/innerlayout"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/authorName">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:id="@+id/ISBN"
+            android:hint="@string/isbn_number"
+            android:singleLine="true"
+            android:editable="false"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:id="@+id/ISBNButoon"
+            android:src="@mipmap/scan"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sendButoon"
+            android:layout_centerHorizontal="true"
+            android:text="@string/upload_text"
+            android:background="@drawable/button_blue"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/innerlayout"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"/>
+
+
+</RelativeLayout>
+</ScrollView>

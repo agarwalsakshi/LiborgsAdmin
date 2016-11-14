@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:layout_margin="2sp">
+
+    <ImageView
+        android:layout_width="@dimen/book_width"
+        android:layout_height="@dimen/book_height"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView"/>
+
+    <ImageView
+        android:layout_width="@dimen/book_width"
+        android:layout_height="@dimen/book_height"
+        android:alpha="0.3"
+        android:id="@+id/background"
+        android:background="@color/dark_grey" />
+
+    <TextView
+        android:id="@+id/bookname"
+        android:layout_width="@dimen/book_width"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:gravity="center_horizontal|bottom"
+        android:layout_alignBottom="@id/background"
+        android:layout_marginLeft="1sp"
+        android:layout_marginRight="1sp"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>
